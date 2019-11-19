@@ -1,0 +1,71 @@
+*{
+  box-sixing: border-box;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+caption{
+  font-size: 26px;
+  color: red;
+}
+
+#name{
+  width: 200px;
+}
+
+#assign{
+  width: 250px;
+}
+
+#tests{
+  width: 150px;
+}
+
+thead{
+  background-color: teal;
+  color: white;
+  text-align: center;
+}
+
+tbody tr>:nth-child(3),
+tbody tr>:nth-child(4),
+tbody tr>:nth-child(5),
+tbody tr>:nth-child(6),
+tbody tr>:nth-child(7),
+tbody tr>:nth-child(8),
+tbody tr>:nth-child(9),
+tbody tr>:nth-child(10),
+tbody tr>:nth-child(11)
+{
+  text-align: right;
+}
+
+tfoot tr>:nth-child(3),
+tfoot tr>:nth-child(4),
+tfoot tr>:nth-child(5),
+tfoot tr>:nth-child(6),
+tfoot tr>:nth-child(7),
+tfoot tr>:nth-child(8),
+tfoot tr>:nth-child(9),
+tfoot tr>:nth-child(10)
+{
+  text-align: right;
+}
+
+tbody tr>:nth-child(11){
+  color: red;
+}
+
+tfoot tr>:nth-child(10){
+  color: red;
+}
+
+tbody tr:nth-child(even){
+  background-color: lightgray;
+}
+
+tfoot{
+  background-color: yellow;
+}
